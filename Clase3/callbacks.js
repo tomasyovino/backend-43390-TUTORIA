@@ -1,3 +1,8 @@
+/* ----------------------------------------------------------------------------------------------------- */
+/* --------------------------------------- "CALLBACKS" ¿QUÉ SON? ----------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------- */
+// Los callbacks son funciones que se pasan como argumentos a otras funciones y se ejecutan después de que se complete cierta operación asincrónica o evento. Estas funciones permiten manejar el flujo de control y realizar acciones específicas cuando una tarea asíncrona ha finalizado o cuando ocurre un evento determinado. Los callbacks son fundamentales para la programación asíncrona en JavaScript y se utilizan ampliamente en funciones como setTimeOut, eventos de escucha y operaciones AJAX, entre otros.
+
 // Definimos un array original de valores.
 const originalValues = [1, 2, 3, 4, 5];
 

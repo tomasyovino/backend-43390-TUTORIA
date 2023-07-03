@@ -1,3 +1,9 @@
+/* ----------------------------------------------------------------------------------------------------- */
+/* --------------------------------------- "PROMESAS" ¿QUÉ SON? -----------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------- */
+// Las promesas son objetos que representan la eventual finalización (éxito o fracaso) de una operación asincrónica y que permiten trabajar con resultados futuros. Las promesas actúan como contenedores para un valor que aún no está disponible, pero que se resolverá en algún momento. Estas operaciones asincrónicas podrían ser solicitudes a servidores, lecturas de archivos, o cualquier tarea que tome tiempo y no bloquee el hilo principal de ejecución.
+// Las promesas tienen tres estados posibles: "pendiente" cuando la operación aún no se ha completado, "resuelta" cuando la operación se ha completado con éxito y "rechazada" cuando ha ocurrido un error.
+
 // Definimos una función llamada 'divide' que realiza una división asincrónica usando una promesa.
 const divide = (dividend, divider) => {
     // Dentro de la función, creamos una nueva promesa usando 'Promise'.
